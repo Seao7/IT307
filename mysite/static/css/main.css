@@ -1,0 +1,137 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2FFE9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+    color: #b80101;
+}
+
+.result {
+    text-align: center;
+    color: #00943e;
+}
+
+.prediction-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    /* margin: auto; */
+    margin-bottom: 15px;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #130202;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #557C55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #A6CF98;
+}
+
+.logo-container {
+    text-align: center;
+    padding: 0;
+}
+
+.logo-heading {
+    text-align: center;
+    color: #ffffff;
+}
+
+.heading {
+    margin-bottom: 7px;
+    font-size: 40px; 
+}
+
+.logo-heading p {
+    margin-top: 0px; 
+}
+
+.university-logo {
+    max-width: 100px; /* Adjust the width as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+.top-section {
+    background-color: #557C55;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bottom-section {
+    background-color: #A6CF98;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.submitted-by {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+}
+
+.box {
+    background-color: #557C55; /* Set the background color for each box */
+    padding: 10px; /* Add padding to create space around the text */
+    border: 1px solid #557C55; /* Add a border around each box */
+    border-radius: 5px; /* Add rounded corners to each box */
+    margin: 10px 0; /* Control the space between each box */
+}
+
+.box h3, .box h4 {
+    margin: 0; 
+}
+
+.box i {
+    font-style: italic; 
+}
+
+
+.info-box {
+    text-align: center;
+}
+
+.centered-table {
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center table content within the div */
+}
